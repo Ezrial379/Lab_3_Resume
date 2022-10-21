@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+
+    <style>    /* Пишу одразу в HTML файлі, бо на такий маленький об'єм немає сенсу створювати новий CSS файл */
+    table
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+
+    }
+
+    table td
+    {
+        border: 1px solid black;
+    }
+    </style>
+
+
+    <table align="center" width="20%" height="150px">
+
+        <tr>
+            <td rowspan="2" align="center" valign="center">1</td>
+            <td align="right">2</td>
+            <td align="right">3</td>
+            <td rowspan="2"  align="center" valign="center">4</td>
+        </tr>
+
+        <tr>
+            <td align="right">5</td>
+            <td align="right">6</td>
+        </tr>
+
+        <tr>
+        <td colspan="4"  align="center" valign="center">7</td>
+        </tr>
+
+        <tr>
+            <td  align="center" valign="center">8</td>
+            <td>9</td>
+            <td>10</td>
+            <td  align="center" valign="center">11</td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
